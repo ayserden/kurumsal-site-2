@@ -1,0 +1,296 @@
+h5.text-center{
+    color:rgb(243, 46, 11);
+  }
+  a.nav-link:hover,a.nav-link:active{text-decoration: underline;
+
+  }
+
+.navbar-default{
+    background:#ff6600;
+color:white;
+}
+#bosluk{
+  margin-top: 59px
+
+}
+#a1{border-style: solid;border-color: coral; padding: 10px;border-radius:  20px 10px 30px;}
+    .a2{border-bottom:2px solid  tomato;width: 94.5%;  }
+
+    .a3{border-bottom:2px solid  tomato; }
+   
+
+.yazi{color: rgb(243, 46, 11)}
+.link_renk{ color:white!important}
+.footer_still{
+    background-color: rgb(248, 248, 248)
+    
+}
+/*sosyal medya ikonları*/
+.header_phone{
+  font-size: 0%;
+  margin: 0%;
+  padding: 0% !important
+  
+
+}
+.footer_yazi p{
+  color:#007bb5;
+}
+.ikon {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 4px;
+}
+
+.ikon:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.sosyal_medya{
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    #bosluk{ margin-top: 200px}
+  }
+/*hakkımızda kısmı css dosyası*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .jumbotron{
+    background-color: white;
+  }
+  .desc{
+      color:rgb(255, 94, 1);
+      font-weight: 500;
+  }
+  /* ürünler css kısmı*/
+  .dropdown-item{ color:rgb(255, 94, 1)!important}
+   
+ .resim_bosluk {
+
+    margin: 20px;
+    padding: 20px;
+  }
+  .table-default{
+    background-color: rgb(255, 94, 1);
+  }
+  .resim_top{position: relative;
+    overflow: hidden;
+  }
+  .resim_aciklama{
+    display: block;
+    color:rgba(255, 255, 255, 0.1);
+    width: 320px;
+    height: 270px;
+    padding: 20%;
+    background-color: rgba(0, 0, 0,0.1);
+position: absolute;
+top: 0px;
+text-align: center;
+line-height: 100px;
+transition-duration: .3s;
+}
+.resim_aciklama:hover{
+  background-color: rgba(0, 0, 0,0.6);
+  color:rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.card_resim{
+  width:320px;height:270px;;
+ 
+}
+
+  /* iletişim css kısmı*/
+  .yazi2{
+    color:rgb(28, 120, 240);
+  }
+/* galeri css kısmı*/
+.galeri_resim{
+  width:100%;
+  float:left;
+ 
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.galeri_resim{
+width: 80%;
+
+
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  transition:all 1s ease;
+}
+
+.galeri_resim:hover{
+ width: 100%;
+}
+
+/* videolar css kısmı*/
+.video_con{
+
+}
+
+.video_list{
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 10px;
+overflow: auto;
+}
+
+#style-1
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.video_con ul{
+  list-style: none;
+padding: 0px;
+margin: 0px;}
+.video_con ul li {
+  padding: 5px;
+   display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    margin: 5px;
+  }
+  .video_con ul li:hover{
+background-color:gainsboro;
+cursor: pointer;
+
+  }
+.video_desc img{ 
+width: 80px;
+height: auto;
+float: left;
+margin-right: 10px;}
+
+.video_play{
+width: 100%;
+height: 50vh;
+}
+
+.video_con a{
+font-size: 16px;
+color: black;
+font-weight: 400;
+text-decoration: none;
+}
+.izlenen_video{
+  background-color: #d1d1d1;
+  height: 300px;
+}
+/* iletisim alani*/
+
+
+.iletisim_con{
+  width: 50%;
+  height:auto;
+  margin: 20px auto;
+  background-color: #ff6600;
+  border: double 10px white;
+  border-radius: 10px;
+}
+.ilet_line{
+  border-bottom:2px solid  tomato;width: 94.5%; margin: 2px auto; 
+}
+
+.iletisim_list{
+  width: 80%;
+  height:400px; 
+  margin: 50px auto;
+  background-color:white;
+ border-radius: 35px 25px 35px;
+}
+.iletisim_list ul{
+  list-style: none;
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+ 
+}
+.iletisim_list ul li{
+  margin: 5px;
+  border-bottom: 2px solid orangered;
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.iletisim_list ul li span{
+  float: right;
+}
+.iletisim_yazi{
+  margin-top: 20px;
+  padding-bottom: 5px;
+  font-size: 35px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+.calis{
+color: orangered;
+font-size: 25px!important;
+}
